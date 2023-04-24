@@ -1,0 +1,139 @@
+
+<html>
+<head>
+  <title>Bakery Home</title>
+  <style>
+    /* Add some style to the page */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+    }
+
+    .header {
+      background-color: #ffcccc;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 40px;
+      color: #ff6666;
+      animation: bounce 1s infinite;
+    }
+
+    .header p {
+      color: #ff9999;
+    }
+
+    @keyframes bounce {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #ff6666;
+    }
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    .nav a:hover {
+      background-color: #ff9999;
+    }
+
+    .main {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      border: 1px solid #ffcccc;
+      box-shadow: 2px 2px 5px #ff9999;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      padding: 10px;
+      color: #ff6666;
+    }
+
+    .card p {
+      padding: 10px;
+      color: #ff9999;
+    }
+
+    .card button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #ff6666;
+      color: white;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background-color: #ff9999;
+    }
+
+    .footer {
+      background-color: #ffcccc;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer p {
+      color: #ff9999;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Bakery Home</h1>
+    <p>Welcome to our online bakery shop!</p>
+  </div>
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="main">
+    <div class="card">
+      <img src="https://source.unsplash.com/300x200/?cake" alt="Cake">
+      <h3>Delicious Cake</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <button>Order Now</button>
+    </div>
+    <div class="card">
+      <img src="https://source.unsplash.com/300x200/?bread" alt="Bread">
+      <h3>Fresh Bread</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <button>Order Now</button>
+    </div>
+    <div class="card">
+      <img src="https://source.unsplash.com/300x200/?cookies" alt="Cookies">
+      <h3>Crispy Cookies</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
