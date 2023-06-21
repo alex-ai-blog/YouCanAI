@@ -1,0 +1,1 @@
+Supplemental content for a review of the [YouTube & Article Summary powered by ChatGPT](https://chrome.google.com/webstore/detail/youtube-article-summary-p/nmmicjeknamkfloonkhhcjmomieiodli) Chrome extension.
